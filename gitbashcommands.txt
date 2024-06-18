@@ -1,0 +1,45 @@
+echo "# cca_test2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Saket2003/cca_test2.git
+git push -u origin main
+
+
+git remote add origin https://github.com/Saket2003/cca_test2.git
+git branch -M main
+git push -u origin main
+
+CLONE
+git clone (link)
+
+FETCH
+git fetch --all
+git fetch -a
+git fetch --multiple
+git fetch --dry-run
+
+git remote add repo (link)
+
+git log
+
+git branch a1
+
+git branch
+
+
+To switch to another branch
+git branch -M a1
+
+Creating a new branch and switching to it, we use checkout
+git checkout -b a2
+
+To delete a branch
+git branch -d a1
+
+Pull
+git pull origin main
+
+RESET
+git reset --soft
